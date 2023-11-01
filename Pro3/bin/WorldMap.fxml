@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="map" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../pics/imgworld.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

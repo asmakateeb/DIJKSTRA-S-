@@ -1,0 +1,11 @@
+.option{
+/*white*/
+    -fx-background-color : #ffffff;
+   
+    }
+
+.option:hover{
+/*black*/
+    -fx-background-color : #000;
+    -fx-text-fill : #fff;
+    }

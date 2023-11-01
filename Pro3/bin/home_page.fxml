@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #293b5f;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageCont">
+   <children>
+      <ScrollPane prefHeight="600.0" prefWidth="900.0">
+         <content>
+            <AnchorPane fx:id="mapContainer" prefHeight="0.0" prefWidth="0.0" />
+         </content></ScrollPane>
+      <VBox layoutX="956.0" layoutY="35.0" spacing="16.0">
+         <children>
+            <VBox fillWidth="false" spacing="5.0">
+               <children>
+                  <AnchorPane prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 0; -fx-background-color: b2ab8c;">
+                     <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Option">
+                           <font>
+                              <Font name="Georgia" size="24.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <ChoiceBox fx:id="srcCB" prefWidth="150.0" />
+                  <ChoiceBox fx:id="desCB" prefWidth="150.0" />
+                  <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#runButton" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 0;" styleClass="option" stylesheets="@style.css" text="Run">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#clearButton" prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 0;" styleClass="option" stylesheets="@style.css" text="Clear">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox fillWidth="false" spacing="5.0">
+               <children>
+                  <AnchorPane prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 0; -fx-background-color: b2ab8c;">
+                     <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result">
+                           <font>
+                              <Font name="Georgia" size="24.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <TextField fx:id="distanceTF" editable="false" focusTraversable="false" prefHeight="40.0" prefWidth="200.0" style="-fx-border-color: #242424; -fx-border-radius: 0; -fx-background-radius: 0;" text="Distance : 0 km" />
+                  <AnchorPane prefHeight="40.0" prefWidth="200.0" style="-fx-background-radius: 0; -fx-background-color: b2ab8c;">
+                     <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Path">
+                           <font>
+                              <Font name="Georgia" size="24.0" />
+                           </font>
+                           <effect>
+                              <DropShadow />
+                           </effect>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </AnchorPane>
+                  <TextArea fx:id="path" prefHeight="200.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

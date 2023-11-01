@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="-88.0" layoutY="14.0" prefHeight="32.0" prefWidth="293.0" text="                 Maze Problem">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Circle fill="#e5e9ec" layoutX="153.0" layoutY="97.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f1f4f7" layoutX="273.0" layoutY="97.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f1f3f4" layoutX="233.0" layoutY="97.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f2f3f4" layoutX="193.0" layoutY="97.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="313.0" layoutY="97.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#edeff2" layoutX="273.0" layoutY="137.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="233.0" layoutY="137.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="193.0" layoutY="137.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="153.0" layoutY="137.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="313.0" layoutY="137.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="233.0" layoutY="177.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="193.0" layoutY="177.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="153.0" layoutY="177.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="313.0" layoutY="177.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ebf0f4" layoutX="273.0" layoutY="177.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="233.0" layoutY="217.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="193.0" layoutY="217.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="153.0" layoutY="217.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#eceeef" layoutX="273.0" layoutY="217.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#e4e7ea" layoutX="313.0" layoutY="217.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="153.0" layoutY="257.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="193.0" layoutY="257.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#e2e6ea" layoutX="313.0" layoutY="257.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="273.0" layoutY="257.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="233.0" layoutY="257.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="-72.0" layoutY="81.0" prefHeight="32.0" prefWidth="183.0" text="               Start-&gt;">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="362.0" layoutY="241.0" prefHeight="32.0" prefWidth="293.0" text="End">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
